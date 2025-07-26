@@ -300,3 +300,93 @@
  .typeform-section a:hover {
      text-decoration: underline;
  }
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: linear-gradient(to right, #1d2b64, #f8cdda);
+     font-family: 'Noto Sans Bengali', sans-serif;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     justify-content: space-between;
+ }
+
+ header {
+     text-align: center;
+     padding: 40px 20px 10px;
+ }
+
+ header h1 {
+     font-size: 40px;
+     color: #fff700;
+ }
+
+ header p {
+     font-size: 20px;
+     color: #e6e6e6;
+     margin-top: 5px;
+ }
+
+ main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+ }
+
+ .slide-box {
+     background-color: rgba(255, 255, 255, 0.15);
+     padding: 25px 40px;
+     border-radius: 15px;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+     backdrop-filter: blur(5px);
+     border: 1px solid rgba(255, 255, 255, 0.2);
+ }
+
+ .typing {
+     font-size: 26px;
+     font-weight: bold;
+     min-width: 300px;
+     color: #ffffff;
+     animation: glow 1.5s infinite alternate;
+ }
+
+ .dots {
+     animation: blink 1s infinite;
+ }
+
+ footer {
+     text-align: center;
+     padding: 20px;
+     font-size: 14px;
+     color: #eeeeee;
+ }
+
+ @keyframes blink {
+
+     0%,
+     100% {
+         opacity: 0;
+     }
+
+     50% {
+         opacity: 1;
+     }
+ }
+
+ @keyframes glow {
+     from {
+         text-shadow: 0 0 10px #ffff99;
+     }
+
+     to {
+         text-shadow: 0 0 20px #fff;
+     }
+ }

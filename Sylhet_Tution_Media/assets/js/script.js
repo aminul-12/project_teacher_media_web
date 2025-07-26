@@ -114,3 +114,50 @@ window.addEventListener('click', (e) => {
 });
 
 
+const texts = [
+    "সেরা টিউটরদের সঙ্গে যুক্ত হোন",
+    "ঘরে বসে অনলাইন টিউশন",
+    "ক্লাস ১ থেকে ১২ পর্যন্ত",
+    "বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি",
+    "প্রফেশনাল কোর্স ও প্রশিক্ষণ",
+    "প্রতিটি বিষয়ের বিশেষজ্ঞ টিউটর",
+    "বিভিন্ন স্তরের কোর্স",
+    "বিভিন্ন বিষয়ের টিউটরিং",
+    "বিসিএস ও স্কিল ডেভেলপমেন্ট কোর্স"
+];
+
+let index = 0;
+let charIndex = 0;
+let isDeleting = false;
+let currentText = "";
+
+function type() {
+    const typingText = document.getElementById("typing-text");
+
+    if (index >= texts.length) index = 0;
+    currentText = texts[index];
+
+    if (isDeleting) {
+        charIndex--;
+        typingText.textContent = currentText.substring(0, charIndex);
+        if (charIndex === 0) {
+            isDeleting = false;
+            index++;
+            setTimeout(type, 500);
+            return;
+        }
+    } else {
+        charIndex++;
+        typingText.textContent = currentText.substring(0, charIndex);
+        if (charIndex === currentText.length) {
+            isDeleting = true;
+            setTimeout(type, 1200);
+            return;
+        }
+    }
+
+    setTimeout(type, isDeleting ? 60 : 120);
+}
+
+type();
+
