@@ -1,0 +1,302 @@
+ .hero-bg {
+     background-image: url('1.png');
+     background-size: cover;
+     background-position: center;
+ }
+
+ .tutor-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ .dashboard-card {
+     transition: all 0.3s ease;
+ }
+
+ .dashboard-card:hover {
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ /* ====== Base Styling ====== */
+ body {
+     margin: 0;
+     font-family: 'Segoe UI', sans-serif;
+     background-color: #0477ea;
+     color: #1f2937;
+ }
+
+ a {
+     text-decoration: none;
+     color: #2563eb;
+     transition: all 0.3s ease;
+ }
+
+ a:hover {
+     color: #1e40af;
+     text-decoration: underline;
+ }
+
+ h1,
+ h2,
+ h3 {
+     margin-bottom: 0.6em;
+     color: #0f172a;
+ }
+
+ /* ====== Container Wrapper ====== */
+ .container {
+     max-width: 1200px;
+     margin: auto;
+     padding: 20px;
+ }
+
+ /* ====== Navbar Links ====== */
+ nav {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+
+ nav a {
+     font-weight: 500;
+     padding: 8px 12px;
+     border-radius: 6px;
+     background-color: #e2e8f0;
+ }
+
+ nav a:hover {
+     background-color: #cbd5e1;
+ }
+
+ /* ====== Quick Links List ====== */
+ .quick-links li a {
+     display: block;
+     padding: 8px 12px;
+     border-radius: 6px;
+ }
+
+ .quick-links li a:hover {
+     background-color: #e2e8f0;
+     color: #000000;
+ }
+
+ /* ====== Image Styling ====== */
+ img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 8px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+ }
+
+ /* ====== Contact Page Styling ====== */
+ .contact-container {
+     max-width: 700px;
+     margin: 60px auto;
+     padding: 30px;
+     background-color: #ffffff;
+     border-radius: 12px;
+     box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+     text-align: center;
+ }
+
+ .contact-container h2 {
+     font-size: 2em;
+     margin-bottom: 30px;
+     color: #1e293b;
+ }
+
+ .contact-block {
+     margin-bottom: 25px;
+     padding: 15px 20px;
+     border: 1px solid #e2e8f0;
+     border-radius: 8px;
+     background-color: #f9fafb;
+ }
+
+ .contact-block h3 {
+     font-size: 1.2em;
+     margin-bottom: 8px;
+     color: #334155;
+ }
+
+ .contact-block a {
+     display: inline-block;
+     padding: 8px 14px;
+     background-color: #2563eb;
+     color: white;
+     border-radius: 6px;
+     font-weight: 500;
+ }
+
+ .contact-block a:hover {
+     background-color: #1d4ed8;
+ }
+
+ .note {
+     margin-top: 30px;
+     font-size: 0.9em;
+     color: #64748b;
+ }
+
+ /* ====== Responsive Design ====== */
+ @media screen and (max-width: 768px) {
+     .contact-container {
+         padding: 20px;
+         margin: 30px 10px;
+     }
+
+     nav {
+         flex-direction: column;
+         gap: 12px;
+     }
+ }
+
+
+ /*service.html er css:*/
+ /* ===== Service Page Styling ===== */
+ .service-container {
+     max-width: 1000px;
+     margin: 60px auto;
+     padding: 30px;
+     background-color: #ffffff;
+     border-radius: 12px;
+     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+ }
+
+ .service-heading {
+     text-align: center;
+     font-size: 2em;
+     margin-bottom: 40px;
+     color: #0f172a;
+ }
+
+ .service-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 24px;
+ }
+
+ .service-card {
+     background-color: #f9fafb;
+     padding: 20px;
+     border-radius: 10px;
+     border: 1px solid #e2e8f0;
+     transition: box-shadow 0.3s ease;
+ }
+
+ .service-card:hover {
+     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+ }
+
+ .service-card h3 {
+     font-size: 1.1em;
+     margin-bottom: 12px;
+     color: #1e293b;
+ }
+
+ .service-card p {
+     font-size: 0.95em;
+     line-height: 1.6;
+     color: #475569;
+ }
+
+ /* ===== Business Card Section ===== */
+ .business-card-section {
+     margin-top: 40px;
+     text-align: center;
+     background-color: #fefce8;
+     border: 1px solid #fde68a;
+     border-radius: 10px;
+     padding: 20px;
+ }
+
+ .card-title {
+     font-size: 1.2em;
+     margin-bottom: 14px;
+     color: #92400e;
+ }
+
+ .card-image {
+     width: 100%;
+     max-width: 300px;
+     border-radius: 8px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     margin-bottom: 12px;
+ }
+
+ .card-note {
+     font-size: 0.9em;
+     color: #78350f;
+ }
+
+ /* ===== Service Footer Note ===== */
+ .service-note {
+     margin-top: 40px;
+     text-align: center;
+     font-size: 0.9em;
+     color: #64748b;
+ }
+
+ .service-note a {
+     color: #2563eb;
+     font-weight: 500;
+ }
+
+ .service-note a:hover {
+     text-decoration: underline;
+ }
+
+ /* ===== Responsive Design ===== */
+ @media screen and (max-width: 768px) {
+     .service-container {
+         padding: 20px;
+         margin: 30px 16px;
+     }
+
+     .service-grid {
+         grid-template-columns: 1fr;
+     }
+
+     .card-image {
+         max-width: 90%;
+     }
+ }
+
+
+
+ /** typeform er css egolu*/
+ /* ✅ Scoped styling for Typeform section only */
+ .typeform-section {
+     padding: 40px;
+     background-color: #f9fafb;
+     border-radius: 12px;
+     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+     margin-top: 40px;
+     margin-bottom: 60px;
+ }
+
+ .typeform-section iframe {
+     border: none;
+     width: 100%;
+     height: 600px;
+     border-radius: 8px;
+     box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+ }
+
+ .typeform-section p {
+     margin-top: 24px;
+     font-size: 1rem;
+     text-align: center;
+     color: #1e293b;
+ }
+
+ .typeform-section a {
+     color: #2563eb;
+     font-weight: 600;
+     text-decoration: none;
+ }
+
+ .typeform-section a:hover {
+     text-decoration: underline;
+ }

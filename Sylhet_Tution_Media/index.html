@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylhet Tuition Media - Expert Tutor Provider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-green-700 text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <h1 class="text-xl font-bold">সিলেট টিউশন মিডিয়া</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="px-3 py-2 rounded-md text-sm font-medium bg-green-800">Home</a>
+                        <a href="#tutors" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600">Tutors</a>
+                        <a href="#universities"
+                            class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600">Universities</a>
+                        <a href="pages/services.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600">Services</a>
+                        <a href="pages/contact.html"
+                            class="px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600">Contact</a>
+                        <button id="loginBtn"
+                            class="ml-4 px-4 py-2 bg-yellow-500 text-black rounded-md text-sm font-medium hover:bg-yellow-400">Login</button>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <!-- Mobile menu button -->
+                    <button
+                        class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-bg text-white py-24 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Expert Tutor Provider</h1>
+            <p class="text-xl md:text-2xl mb-8">Connecting students with the best tutors in Sylhet</p>
+            <button class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg text-lg">Find a
+                Tutor</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Featured Tutors -->
+        <section id="tutors" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Featured Tutors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tutor Card 1 -->
+                <div class="tutor-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/institutes/University Education Insurance.png"
+                            alt="Professional male tutor in formal attire teaching mathematics"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Md. Rahman</h3>
+                        <p class="text-green-600 font-medium mb-2">Mathematics Expert</p>
+                        <p class="text-gray-600 mb-4">Shahjalal University of Science & Technology</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-500">★★★★★</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tutor Card 2 -->
+                <div class="tutor-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/institutes/University Education Insurance.png"
+                            alt="Female tutor teaching english literature in classroom setting"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Farhana Akter</h3>
+                        <p class="text-green-600 font-medium mb-2">English Literature</p>
+                        <p class="text-gray-600 mb-4">Sylhet MC College</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-500">★★★★☆</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tutor Card 3 -->
+                <div class="tutor-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/institutes/University Education Insurance.png"
+                            alt="Young tutor explaining physics concepts with diagrams"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Abdul Karim</h3>
+                        <p class="text-green-600 font-medium mb-2">Physics Specialist</p>
+                        <p class="text-gray-600 mb-4">Sylhet Engineering College</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-500">★★★★★</span>
+                            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <button class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg text-lg">View
+                    All Tutors</button>
+            </div>
+        </section>
+
+        <!-- Universities Section -->
+        <section id="universities" class="mb-16 bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Our Tutors From</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/sust.png" alt="Shahjalal University Logo"
+                        class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">শাহজালাল বিশ্ববিদ্যালয়</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/metro.png" alt="SUST University Logo" class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">মেট্রোপলিটন ইউনিভার্সিটি</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/osmany.png" alt="Sylhet Medical College Logo"
+                        class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">সিলেট ওসমানী মেডিকেল কলেজ</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/sylhet_agri.png" alt="Sylhet Agricultural University Logo"
+                        class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">সিলেট কৃষি বিশ্ববিদ্যালয়</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/sec.png" alt="Sylhet Engineering College Logo"
+                        class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">সিলেট ইঞ্জিনিয়ারিং কলেজ</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/mc.png" alt="MC College Logo" class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">মুরারিচাঁদ কলেজ</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/logos/rtm.png" alt="ARTM Al-Kabi Logo" class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">আর্টিএম আল কবি টেকনিক্যাল ইউনিভার্সিটি</h3>
+                </div>
+                <div class="text-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+                    <img src="assets/images/institutes/leaDING.png" alt="Leading University Logo"
+                        class="mx-auto h-20 mb-3">
+                    <h3 class="font-semibold">লিডিং ইউনিভার্সিটি</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">School Curriculum</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• বাংলা মিডিয়াম</li>
+                        <li>• ইংলিশ মিডিয়াম</li>
+                        <li>• প্লে অনার্স</li>
+                        <li>• ন্যাশনাল ও ব্রিটিশ কারিকুলাম</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Academic Levels</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• এসএসসি (Science/Arts/Commerce)</li>
+                        <li>• এইচএসসি (Science/Arts/Commerce)</li>
+                        <li>• O-Level & A-Level</li>
+                        <li>• School Admission Preparation</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Test Preparation</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• University Admission Test</li>
+                        <li>• IELTS/SET</li>
+                        <li>• TOEFL/CAT/GRE</li>
+                        <li>• Specialized Coaching</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Contact Us</h2>
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-8">
+                    <p class="text-lg mb-2">Have questions? We're here to help!</p>
+                    <p class="text-green-600 font-bold text-xl">Phone:+৮৮০১৭৭৪৭৪৪২৭২</p>
+                </div>
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name"
+                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                            placeholder="Your name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email"
+                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                            placeholder="Your email">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" rows="4"
+                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                            placeholder="Your message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit"
+                            class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-md">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">সিলেট টিউশন মিডিয়া</h3>
+                    <p class="text-gray-300">Expert Tutor Provider connecting students with qualified educators across
+                        Sylhet.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="#tutors.html" class="text-gray-300 hover:text-white">Find a Tutor</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-white">Our Services</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <p class="text-gray-300 mb-2">Phone: ০১৭৭৪৭৪৪২৭২</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 সিলেট টিউশন মিডিয়া. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden z-50">
+        <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold text-gray-800">Login</h3>
+                <button id="closeLoginModal" class="text-gray-400 hover:text-gray-600">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <form id="loginForm">
+                <div class="mb-4">
+                    <label for="loginEmail" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="loginEmail"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your email" required>
+                </div>
+                <div class="mb-6">
+                    <label for="loginPassword" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="loginPassword"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your password" required>
+                </div>
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <input id="remember-me" name="remember-me" type="checkbox"
+                            class="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded">
+                        <label for="remember-me" class="ml-2 block text-sm text-gray-700">Remember me</label>
+                    </div>
+                    <a href="#" class="text-sm text-green-600 hover:text-green-500">Forgot password?</a>
+                </div>
+                <button type="submit"
+                    class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">Sign In</button>
+                <p class="mt-4 text-center text-sm text-gray-600">
+                    Don't have an account? <a href="#" class="text-green-600 hover:text-green-500"
+                        id="switchToRegister">Register</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden z-50">
+        <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold text-gray-800">Register</h3>
+                <button id="closeRegisterModal" class="text-gray-400 hover:text-gray-600">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <form id="registerForm">
+                <div class="mb-4">
+                    <label for="registerName" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="registerName"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your full name" required>
+                </div>
+                <div class="mb-4">
+                    <label for="registerEmail" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="registerEmail"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your email" required>
+                </div>
+                <div class="mb-4">
+                    <label for="registerPhone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <input type="tel" id="registerPhone"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your phone number" required>
+                </div>
+                <div class="mb-4">
+                    <label for="registerPassword" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="registerPassword"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Your password" required>
+                </div>
+                <div class="mb-4">
+                    <label for="registerConfirmPassword" class="block text-sm font-medium text-gray-700">Confirm
+                        Password</label>
+                    <input type="password" id="registerConfirmPassword"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="Confirm password" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700">Register As</label>
+                    <div class="mt-2">
+                        <div class="flex items-center">
+                            <input id="register-student" name="user-type" type="radio"
+                                class="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300" checked>
+                            <label for="register-student"
+                                class="ml-2 block text-sm text-gray-700">Student/Guardian</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="register-tutor" name="user-type" type="radio"
+                                class="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300">
+                            <label for="register-tutor" class="ml-2 block text-sm text-gray-700">Tutor</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">Register</button>
+                <p class="mt-4 text-center text-sm text-gray-600">
+                    Already have an account? <a href="#" class="text-green-600 hover:text-green-500"
+                        id="switchToLogin">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tutor Dashboard (Hidden by default) -->
+    <div id="tutorDashboard" class="hidden">
+        <div class="bg-green-700 text-white py-4 shadow-lg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+                <h1 class="text-xl font-bold">Tutor Dashboard</h1>
+                <div>
+                    <span id="loggedInUser" class="mr-4">Welcome, Tutor</span>
+                    <button id="logoutBtn"
+                        class="bg-yellow-500 hover:bg-yellow-400 text-black px-4 py-2 rounded-md text-sm">Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Profile Card -->
+                <div class="dashboard-card bg-white rounded-lg shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="h-16 w-16 rounded-full overflow-hidden">
+                            <img src="https://placehold.co/100" alt="Tutor profile picture"
+                                class="h-full w-full object-cover">
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Your Profile</h3>
+                            <p class="text-sm text-gray-500">Manage your tutor profile</p>
+                        </div>
+                    </div>
+                    <button id="editProfileBtn"
+                        class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">Edit
+                        Profile</button>
+                </div>
+
+                <!-- Schedule Card -->
+                <div class="dashboard-card bg-white rounded-lg shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-16 w-16 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Schedule</h3>
+                            <p class="text-sm text-gray-500">Manage your availability</p>
+                        </div>
+                    </div>
+                    <button id="manageScheduleBtn"
+                        class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">Set
+                        Schedule</button>
+                </div>
+
+                <!-- Students Card -->
+                <div class="dashboard-card bg-white rounded-lg shadow-md p-6">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-16 w-16 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Students</h3>
+                            <p class="text-sm text-gray-500">View your students</p>
+                        </div>
+                    </div>
+                    <button id="viewStudentsBtn"
+                        class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">View
+                        Students</button>
+                </div>
+            </div>
+
+            <!-- Tutor Profile Section -->
+            <div class="mt-8 bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-4">Your Profile Information</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Full Name</label>
+                                <p class="mt-1 text-gray-900 font-medium">Md. Tutor Rahman</p>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Email</label>
+                                <p class="mt-1 text-gray-900 font-medium">tutor@sylhet.tuition</p>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Phone</label>
+                                <p class="mt-1 text-gray-900 font-medium">017XXXXXXXX</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Education</label>
+                                <p class="mt-1 text-gray-900 font-medium">Shahjalal University of Science & Technology
+                                </p>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Subjects</label>
+                                <p class="mt-1 text-gray-900 font-medium">Mathematics, Physics</p>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700">Experience</label>
+                                <p class="mt-1 text-gray-900 font-medium">5 years teaching experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-6 py-4">
+                    <button id="editFullProfileBtn"
+                        class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md">Edit Full
+                        Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
